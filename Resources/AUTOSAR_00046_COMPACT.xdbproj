@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lxdb8:LXDBWizardProject xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:lxdb8="http://www.liquid-technologies.com/LTWizProjectLib8" ProjectVersion="18.0.2.9849" UseRelativePaths="true">
+	<lxdb8:Schema FullPathName=".\AUTOSAR_00046_COMPACT.xsd" SelectedSchemaType="XSD" XDRAllowAdditionalAttributes="false" XDRIgnoreSimpleElements="false" WSDLGenerateClientInterface="false" WSDLAutoFilterElements="false" SelectedLanguage="CS">
+		<lxdb8:CPP CollectionMapping="Original" OutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SourceCodeCPP" DocumentationOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\DocumentationCPP" SampleAppOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SampleAppCPP" MappingFilePath=".\AUTOSAR_00046_COMPACT.xsd_NameMapping.cpp.xml" DefaultClassNamespace="AUTOSAR_00046_COMPACTLib"/>
+		<lxdb8:CSharp CollectionMapping="Original" OutputPath="..\..\..\SourceCodeCS" DocumentationOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\DocumentationCS" SampleAppOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SampleAppCS" MappingFilePath=".\AUTOSAR_00046_COMPACT.xsd_NameMapping.cs.xml" DefaultClassNamespace="AUTOSAR_00046_COMPACTLib" BaseNamespace="GTT">
+			<lxdb8:PermProperty>
+				<lxdb8:Name>SolutionGUID</lxdb8:Name>
+				<lxdb8:Value>{A2113D38-3D14-4B32-8100-2600F9B7CBD5}</lxdb8:Value>
+			</lxdb8:PermProperty>
+			<lxdb8:PermProperty>
+				<lxdb8:Name>ProjectGUID</lxdb8:Name>
+				<lxdb8:Value>{1996A694-4D2E-4A1D-B206-B9D94477054F}</lxdb8:Value>
+			</lxdb8:PermProperty>
+			<lxdb8:PermProperty>
+				<lxdb8:Name>COMGUID</lxdb8:Name>
+				<lxdb8:Value>{5A8CF24A-4A6D-4DD1-9719-28DA718E5A2B}</lxdb8:Value>
+			</lxdb8:PermProperty>
+			<lxdb8:DotNetPlatformOptions UseLiquidRuntimeNuget="false">
+				<lxdb8:DotNetDevEnv>VS2019</lxdb8:DotNetDevEnv>
+				<lxdb8:DotNetPlatform>Core31</lxdb8:DotNetPlatform>
+			</lxdb8:DotNetPlatformOptions>
+		</lxdb8:CSharp>
+		<lxdb8:Java CollectionMapping="Original" OutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SourceCodeJava" DocumentationOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\DocumentationJava" SampleAppOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SampleAppJava" MappingFilePath=".\AUTOSAR_00046_COMPACT.xsd_NameMapping.java.xml" DefaultPackageName="AUTOSAR_00046_COMPACTLib" BasePackage="">
+			<lxdb8:JavaPlatformOptions>
+				<lxdb8:JDK>JDK5</lxdb8:JDK>
+			</lxdb8:JavaPlatformOptions>
+		</lxdb8:Java>
+		<lxdb8:VBNet CollectionMapping="Original" OutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SourceCodeVBNet" DocumentationOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\DocumentationVBNet" SampleAppOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SampleAppVBNet" MappingFilePath=".\AUTOSAR_00046_COMPACT.xsd_NameMapping.vbnet.xml" DefaultClassNamespace="AUTOSAR_00046_COMPACTLib" BaseNamespace="">
+			<lxdb8:DotNetPlatformOptions UseLiquidRuntimeNuget="true">
+				<lxdb8:DotNetDevEnv>VS2019</lxdb8:DotNetDevEnv>
+				<lxdb8:DotNetPlatform>DotNet472</lxdb8:DotNetPlatform>
+			</lxdb8:DotNetPlatformOptions>
+		</lxdb8:VBNet>
+		<lxdb8:VB6 CollectionMapping="Original" OutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SourceCodeVB" DocumentationOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\DocumentationVB" SampleAppOutputPath=".\AUTOSAR_00046_COMPACT.xsd.Output\SampleAppVB" MappingFilePath=".\AUTOSAR_00046_COMPACT.xsd_NameMapping.vb6.xml" ComponentName="AUTOSAR_00046_COMPACTLib" Description="" MajorVersion="1" MinorVersion="0" Revision="0" ProductName=""/>
+	</lxdb8:Schema>
+	<lxdb8:Output CreateDocumentation="false" CreateSampleApplication="false" OutputDateInHeaderBlock="false" OutputSchemaPathInHeaderBlock="true" OutputVersionInHeaderBlock="true" OutputProjectFiles="true" OutputFastInfosetTables="false" OutputPropertyEvents="false" OutputElmRefAsInterface="true" OutputPrimitiveClassesAsTextProperty="false" OutputXmlSchemaProviderAttribute="false" OutputNullableSimpleTypes="true" IgnoreOptionalElementDefaults="false">
+		<lxdb8:SelectedWsdlPort Port="" Service=""/>
+		<lxdb8:ProjectReferenceInclude/>
+		<lxdb8:ProjectCompileInclude/>
+		<lxdb8:ProjectNoneInclude/>
+		<lxdb8:ProjectStrongNameKeyFile/>
+	</lxdb8:Output>
+	<lxdb8:PostBuild BuildHelp="false" OpenHelp="false" OpenProject="true"/>
+</lxdb8:LXDBWizardProject>
